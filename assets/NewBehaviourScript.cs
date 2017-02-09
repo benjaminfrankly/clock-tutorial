@@ -24,5 +24,14 @@ public class NewBehaviourScript : MonoBehaviour
 		Vector3 secondsrotation = new Vector3 (0f, 0f, clockwise_seconds);
 		Quaternion secondsrotationquat = Quaternion.Euler (secondsrotation);
 		secondhand.transform.rotation = secondsrotationquat;	
-	}
+
+		// temporary variable for minutes
+		int minutes = time.Minute;
+		Vector3 minuteseuler = new Vector3 (0f, 0f, (1f - (minutes / 60f)) * 360f);
+		minutehand.transform.rotation = Quaternion.Euler (minuteseuler);
+
+		//vector3. forward = new vector3(0, 0, 1)
+
+		//set hour hand
+		hourhand.	}
 }
