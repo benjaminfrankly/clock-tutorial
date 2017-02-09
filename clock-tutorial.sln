@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B7ECD0AA-F60D-D010-85E8-9EDB5852AD17}") = "clock-tutorial", "Assembly-CSharp.csproj", "{501CB912-61C2-AC53-8F76-A62FF16B081B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501CB912-61C2-AC53-8F76-A62FF16B081B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501CB912-61C2-AC53-8F76-A62FF16B081B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501CB912-61C2-AC53-8F76-A62FF16B081B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501CB912-61C2-AC53-8F76-A62FF16B081B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
